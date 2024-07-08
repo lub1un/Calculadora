@@ -22,7 +22,7 @@ function imprimirMenu() {
                 let soma = soma1 + soma2
                 if (!isNaN(soma)) {
                     number = parseFloat(soma);  // Converte para número, se possível
-                    console.log(`O resultado da divisão é ${soma}`);
+                    console.log(`O resultado da soma é ${soma}`);
                 } else {
                     console.log("Erro: Operação inválida.");
                 }
@@ -75,7 +75,7 @@ function imprimirMenu() {
                 let porcentagem = (porcentagem1 * porcentagem2) / 100
                 if (!isNaN(porcentagem)) {
                     number = parseFloat(porcentagem);  // Converte para número, se possível
-                    console.log(`O resultado da divisão é ${porcentagem}`);
+                    console.log(`O resultado da porcentagem é ${porcentagem}`);
                 } else {
                     console.log("Erro: Operação inválida.");
                 }
